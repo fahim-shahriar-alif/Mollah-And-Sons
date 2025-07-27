@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="542.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alif.mollahandsons.LoginViewController">
+   <children>
+      <Label layoutX="289.0" layoutY="188.0" text="Sign in to your account" textFill="#0f611d">
+         <font>
+            <Font name="Songti TC Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="175.0" layoutY="233.0" text="Please enter your username and password to login" textFill="#0a3612">
+         <font>
+            <Font name="Songti TC Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameTextField" alignment="CENTER" layoutX="318.0" layoutY="282.0" prefHeight="38.0" prefWidth="221.0" promptText="USERNAME">
+         <font>
+            <Font name="Shobhika Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="passwordTextField" alignment="CENTER" layoutX="318.0" layoutY="337.0" prefHeight="38.0" prefWidth="221.0" promptText="PASSWORD">
+         <font>
+            <Font name="Shobhika Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="364.0" layoutY="407.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="31.0" prefWidth="126.0" style="-fx-border-color: green;" text="LOGIN" />
+      <Label fx:id="messageLabel" layoutX="174.0" layoutY="464.0" prefHeight="40.0" prefWidth="509.0" textFill="#0a3612">
+         <font>
+            <Font name="Songti TC Bold" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="219.0" fitWidth="248.0" layoutX="321.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../images/Mollah_and_Sons_Logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
