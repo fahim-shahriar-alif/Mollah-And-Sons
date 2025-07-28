@@ -25,33 +25,25 @@ public class LoginController {
         String username = usernameTextField.getText();
         String password = passwordTextField.getText();
 
-        if (username.equals("Client") && password.equals("alif")) {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Alif_2221079/ClientDash.fxml"));
+        if (username.equals("Shamim") && password.equals("shamim")) {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("dashboard-view.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = (Stage) usernameTextField.getScene().getWindow();
-            stage.setTitle("Client Dash");
+            stage.setTitle("Mollah and Sons Dashboard");
             Scene scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
         }
-        else if (username.equals("Agent") && password.equals("alif")) {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Alif_2221079/AgentDash.fxml"));
+        else if (username.equals("Jakir") && password.equals("jakir")) {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("dashboard-view.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = (Stage) usernameTextField.getScene().getWindow();
-            stage.setTitle("Agent Dash");
+            stage.setTitle("Mollah and Sons Dashboard");
             Scene scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
         }
-        else if (username.equals("HR") && password.equals("rafi")) {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("inzamamulhoque_1910014/HRManagerDashboardView.fxml"));
-            Parent root = fxmlLoader.load();
-            Stage stage = (Stage) usernameTextField.getScene().getWindow();
-            stage.setTitle("HR Dash");
-            Scene scene = new Scene(root);
-            stage.setScene(scene);
-            stage.show();
-        }
+
         else {
             messageLabel.setText("Invalid Username or Password. Please try again.");
         }
