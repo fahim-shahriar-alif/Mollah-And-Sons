@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="752.0" prefWidth="949.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="542.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alif.mollahandsons.DashboardViewController">
    <children>
       <Button layoutX="847.0" layoutY="26.0" mnemonicParsing="false" onAction="#signOutButtonOnAction" style="-fx-border-color: red;" text="Sign Out" />
       <Label contentDisplay="CENTER" layoutX="332.0" layoutY="70.0" prefHeight="39.0" prefWidth="283.0" style="-fx-border-color: darkgreen;" text=" Welcome to the Dealership Management" textAlignment="CENTER" wrapText="true">
