@@ -1,4 +1,4 @@
-package com.example.alif.mollahandsons;
+package com.example.alif.mollahandsons.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

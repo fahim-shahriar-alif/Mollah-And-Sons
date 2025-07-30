@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="542.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alif.mollahandsons.LoginController">
+<AnchorPane prefHeight="542.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alif.mollahandsons.controller.LoginController">
    <children>
       <Label layoutX="289.0" layoutY="188.0" text="Sign in to your account" textFill="#0f611d">
          <font>

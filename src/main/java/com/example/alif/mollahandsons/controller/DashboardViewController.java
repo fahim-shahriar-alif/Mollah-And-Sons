@@ -1,7 +1,6 @@
-package com.example.alif.mollahandsons;
+package com.example.alif.mollahandsons.controller;
 
 import javafx.event.ActionEvent;
-import javafx.scene.control.TableView;
 
 public class DashboardViewController {
 
