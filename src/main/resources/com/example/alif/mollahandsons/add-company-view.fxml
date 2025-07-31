@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="723.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alif.mollahandsons.controller.AddCompanyViewController">
+   <children>
+      <Button layoutX="518.0" layoutY="11.0" mnemonicParsing="false" onAction="#backButtonOnAction" style="-fx-border-color: red;" text="Back" />
+      <Label contentDisplay="CENTER" layoutX="210.0" layoutY="12.0" prefHeight="26.0" prefWidth="181.0" style="-fx-border-color: darkgreen;" text="Add New Fartilizer Company" wrapText="true">
+         <font>
+            <Font name="Shobhika Bold" size="12.0" />
+         </font>
+      </Label>
+      <VBox layoutX="9.0" layoutY="57.0" prefHeight="524.0" prefWidth="578.0">
+         <children>
+            <Label contentDisplay="CENTER" prefHeight="24.0" prefWidth="142.0" text="Company Name" wrapText="true">
+               <font>
+                  <Font name="Times New Roman Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="companyNameTextField" promptText="Enter Company Name" />
+            <Label prefHeight="38.0" prefWidth="142.0" text="Address">
+               <font>
+                  <Font name="Times New Roman Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="addressTextArea" prefHeight="53.0" prefWidth="578.0" promptText="Enter Company Address" />
+            <Label contentDisplay="CENTER" prefHeight="32.0" prefWidth="142.0" text="Contact Person" wrapText="true">
+               <font>
+                  <Font name="Times New Roman Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="contactPersonTextField" promptText="Enter Contact Person" />
+            <Label contentDisplay="CENTER" prefHeight="32.0" prefWidth="142.0" text="Phone Number" wrapText="true">
+               <font>
+                  <Font name="Times New Roman Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="phoneNumberTextField" promptText="Enter Phone Number" />
+            <Label contentDisplay="CENTER" prefHeight="35.0" prefWidth="142.0" text="Email Address" wrapText="true">
+               <font>
+                  <Font name="Times New Roman Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="emailTextField" promptText="Enter Email Address" />
+            <Label contentDisplay="CENTER" prefHeight="36.0" prefWidth="142.0" text="City" wrapText="true">
+               <font>
+                  <Font name="Times New Roman Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="cityTextField" promptText="Enter City Name" />
+            <Label contentDisplay="CENTER" prefHeight="33.0" prefWidth="142.0" text="Bank Account Number" wrapText="true">
+               <font>
+                  <Font name="Times New Roman Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="bankAccounttextField" promptText="Enter Bank Account Number" />
+            <Label contentDisplay="CENTER" prefHeight="34.0" prefWidth="142.0" text="Company Type" wrapText="true">
+               <font>
+                  <Font name="Times New Roman Bold" size="13.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="companyTypeComboBox" prefHeight="31.0" prefWidth="173.0" promptText="Select Company Type" />
+         </children>
+      </VBox>
+      <Button layoutX="109.0" layoutY="595.0" mnemonicParsing="false" onAction="#saveCompanyButtonOnAction" style="-fx-border-color: green;" text="Save Company" />
+      <Button layoutX="262.0" layoutY="595.0" mnemonicParsing="false" onAction="#clearFormButtonOnAction" style="-fx-border-color: yellow;" text="Clear Form" />
+      <Button layoutX="392.0" layoutY="595.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" style="-fx-border-color: red;" text="Cancel" />
+   </children>
+</AnchorPane>
